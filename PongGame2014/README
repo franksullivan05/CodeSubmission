@@ -1,0 +1,32 @@
+Authors:
+	Kaan Arik:- 84254373
+	Frank Sullivan:- 54525572
+
+Group Number:
+	#44
+
+Date of Submission:
+	17th October, 2014
+
+To run game:
+	1) enter directory of the game
+	2) type command 'make program'
+ 
+This is a classic game of "PONG", using two ATMEL MEGA 32U2 with IR transmission, LED display, and directional switch
+
+game.c
+	- The main file for the game.
+	
+ball.c
+	- Contains the functionality for the ball.
+	
+paddle.c
+	- Contains the functionality for the bat.
+	
+transmission.c
+	- Contains the functionality for the sending and recieving of the 
+	  IR signals
+	  
+led_display.c
+	- Contains the functionality to display the messages to the user as
+	  well as initalising the led matrix.
